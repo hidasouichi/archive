@@ -1,0 +1,17 @@
+baseURL = "https://hidasouichi.com/"
+locale = "ja"
+defaultContentLanguage = "ja"
+title = "檜田相一アーカイブ"
+
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 20
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params]
+  description = "檜田相一の文章、活動記録、著作、年表等を収録する個人アーカイブ。"
+  author = "檜田相一"

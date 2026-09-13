@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>檜田相一アーカイブ</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on 檜田相一アーカイブ</description>
+		<generator>Hugo</generator>
+		<language>ja</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title></title>
+				<link>http://localhost:1313/about/profile/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/profile/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/about/thoughts/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/thoughts/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/about/workspace/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/workspace/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/archive/activities/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/archive/activities/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/archive/other/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/archive/other/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/archive/talks/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/archive/talks/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/archive/timeline/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/archive/timeline/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/archive/writings/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/archive/writings/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/references/links/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/references/links/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/references/notable-articles/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/references/notable-articles/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/site/contact/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/site/contact/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title></title>
+				<link>http://localhost:1313/site/operator/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/site/operator/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

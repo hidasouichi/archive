@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ if .Title }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+
+  <meta
+    name="description"
+    content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}"
+  >
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>
+    <a href="{{ site.Home.RelPermalink }}">
+      {{ site.Title }}
+    </a>
+  </h1>
+
+  <nav>
+    <a href="/about/">檜田相一について</a>
+    <a href="/archive/">アーカイブ</a>
+    <a href="/ideas/">思想</a>
+    <a href="/references/">参考にしているもの</a>
+    <a href="/site/">このサイトについて</a>
+  </nav>
+</header>
+
+<hr>
+
+<main>
+  {{ block "main" . }}{{ end }}
+</main>
+
+<hr>
+
+<footer>
+  <p>© 檜田相一</p>
+</footer>
+
+</body>
+</html>

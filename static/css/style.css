@@ -1,0 +1,216 @@
+html {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Yu Gothic",
+    "YuGothic",
+    "Hiragino Kaku Gothic ProN",
+    "Noto Sans JP",
+    sans-serif;
+
+  line-height: 1.8;
+  color: #222;
+  background: #f8f8f6;
+}
+
+body {
+  margin: 0;
+}
+
+/* サイト全体 */
+
+header,
+main,
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* ヘッダー */
+
+header {
+  padding-top: 36px;
+  padding-bottom: 24px;
+}
+
+header h1 {
+  margin: 0 0 18px;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+header h1 a {
+  color: #111;
+  text-decoration: none;
+}
+
+/* ナビゲーション */
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  font-size: 0.95rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* 本文 */
+
+main {
+  max-width: 760px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+main h1 {
+  font-size: 2rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+main h2 {
+  font-size: 1.45rem;
+  margin-top: 2.8em;
+  margin-bottom: 1em;
+}
+
+main h3 {
+  font-size: 1.15rem;
+  margin-top: 2.2em;
+}
+
+p {
+  margin: 1.2em 0;
+}
+
+ul,
+ol {
+  padding-left: 1.5em;
+}
+
+li {
+  margin: 0.45em 0;
+}
+
+/* リンク */
+
+main a {
+  color: #1d4f91;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+main a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* 引用 */
+
+blockquote {
+  margin: 2em 0;
+  padding: 0.2em 1.4em;
+  border-left: 4px solid #bbb;
+  color: #555;
+}
+
+/* 横線 */
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+/* フッター */
+
+footer {
+  padding-top: 24px;
+  padding-bottom: 48px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* スマートフォン */
+
+@media (max-width: 600px) {
+  header,
+  main,
+  footer {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  header {
+    padding-top: 24px;
+  }
+
+  main {
+    padding-top: 28px;
+  }
+
+  main h1 {
+    font-size: 1.65rem;
+  }
+
+  main h2 {
+    font-size: 1.3rem;
+  }
+
+  nav {
+    gap: 6px 14px;
+  }
+}
+
+/* トップページ */
+
+.hero {
+  margin-bottom: 64px;
+}
+
+.hero h1 {
+  margin-bottom: 24px;
+}
+
+.intro {
+  font-size: 1.05rem;
+}
+
+.home-section {
+  margin-top: 56px;
+}
+
+.home-section h2 {
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.home-section p {
+  color: #555;
+}
+
+.home-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+.home-links li {
+  margin: 10px 0;
+}
+
+.home-links a {
+  display: inline-block;
+  font-weight: 500;
+}
